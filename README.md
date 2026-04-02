@@ -1,90 +1,121 @@
-# Customer Churn Analysis
-### Telecom Customer Retention Intelligence | Python · Jupyter
+# Customer Churn Analysis (Python)
+
+### Telecom Customer Retention Analysis | Python · Pandas · Matplotlib · Seaborn
+
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=flat&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blue)
+![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-2E86C1)
+![Status](https://img.shields.io/badge/Status-Completed-27AE7A?style=flat)
+
+---
 
 ## Overview
 
-A telecom company is silently losing 1 in 4 customers every month.
-This project digs into 7,032 customer records to find exactly why —
-and puts a dollar figure on the damage.
+This project performs exploratory data analysis (EDA) on telecom customer data to understand churn behavior and identify key factors affecting customer retention.
 
-Using Python for deep exploratory analysis and Power BI for
-interactive reporting, this project surfaces the contract types,
-payment behaviors, and customer profiles driving the highest churn.
+The dataset contains 7,032 customers, and the goal is to:
+- Analyze churn patterns  
+- Identify high-risk customers  
+- Understand revenue impact  
+- Generate business insights  
 
-## Business Problem
+---
 
-> *"Which customers are leaving, why are they leaving,
-> and how much revenue is walking out the door?"*
+## Business Objective
 
-## Key Findings
+**Identify why customers are leaving and how to reduce churn using data-driven insights.**
 
-| Metric | Value | Insight |
-|--------|-------|---------|
-| Overall Churn Rate | 26.6% | 1 in 4 customers leaving |
-| Month-to-Month Churn | 42.7% | 14x higher than two-year contracts |
-| Two-Year Contract Churn | 2.8% | Most loyal segment |
-| Avg Monthly Charge — Churned | $74.44 | $13 more than retained customers |
-| Avg Monthly Charge — Retained | $61.31 | Healthy customer baseline |
-| Total Revenue Lost | $2,862,926 | Majority from short-term contracts |
-| Avg Tenure — Churned | 18 months | New customers are highest risk |
-| E-check Churn Rate | 45% | 2x higher than auto-pay customers |
+---
+
+## Analysis Performed
+
+- Data Cleaning and preprocessing  
+- Handling missing values  
+- Exploratory Data Analysis (EDA)  
+- Feature analysis (contract, tenure, charges, payment method)  
+- Correlation analysis  
+
+---
+
+## Key Insights
+
+- Churn Rate: **26.6%** (1 in 4 customers)
+- Month-to-Month: **Highest churn (42.7%)**
+- Two-Year Contracts: **Lowest churn (2.8%)**
+- Avg Monthly Charges (Churned): **$74.44**
+- Avg Monthly Charges (Retained): **$61.31**
+- High charges → higher churn  
+- New customers → higher churn  
+- Electronic check → highest churn  
+
+---
+
+## Visualizations
+
+- Churn distribution (Pie chart)  
+- Churn by contract type (Bar chart)  
+- Monthly charges vs churn (Box plot)  
+- Tenure distribution (Histogram)  
+- Correlation heatmap  
+
+---
 
 ## Business Recommendations
 
-**1. Convert month-to-month customers to annual contracts**
-Churn drops from 43% to 3% — the single highest-impact action.
+- Convert month-to-month customers to long-term plans  
+- Focus on early-stage customers (0–12 months)  
+- Encourage auto-pay over electronic check  
+- Provide offers for high-paying customers  
 
-**2. Prioritize new customer onboarding (0–12 months)**
-Churn is highest in the first year. Early engagement programs
-can significantly reduce early exits.
-
-**3. Migrate customers to auto-pay**
-Electronic check users churn at 2x the rate of auto-pay customers.
-Incentivize switching with discounts or loyalty points.
-
-**4. Review pricing for high-charge customers**
-Churned customers pay $13/month more on average.
-A targeted retention offer for high-charge segments could
-recover a significant portion of the $2.86M revenue loss.
-
+---
 
 ## Project Structure
-```
+
 customer-churn-analysis/
 │
-├── churn_analysis.ipynb      # Full Python EDA notebook
-├── churn_summary.csv         # Key findings summary table
-├── churn_rate.png            # Overall churn pie chart
-├── churn_contract.png        # Churn by contract type
-├── churn_tenure.png          # Churn by tenure
-├── churn_charges.png         # Monthly charges distribution
-├── churn_internet.png        # Churn by internet service
-├── churn_heatmap.png         # Correlation heatmap
+├── churn_analysis.ipynb
+├── churn_summary.csv
+│
+├── visuals/
+│ ├── churn_rate.png
+│ ├── churn_contract.png
+│ ├── churn_tenure.png
+│ ├── churn_charges.png
+│ └── churn_heatmap.png
+│
+└── README.md
 
-## Tools & Technologies
 
-| Tool | Usage |
-|------|-------|
-| Python 3.x | Core analysis language |
-| Pandas | Data cleaning & manipulation |
-| Matplotlib & Seaborn | Data visualization |
-| Jupyter Notebook | Analysis environment |
-| Power BI | Interactive dashboard |
+---
+
+## Tools & Libraries
+
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Jupyter Notebook  
+
+---
 
 ## Dataset
 
-- **Source:** IBM Telco Customer Churn
-- **Platform:** Kaggle
-- **Size:** 7,032 customers · 21 features
-- **Link:** [View Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+- IBM Telco Customer Churn Dataset  
+- 7,032 Customers · 21 Features  
+
+---
 
 ## How to Run
-# Install dependencies
-pip install pandas matplotlib seaborn jupyter
 
-# Launch notebook
+```bash
+pip install pandas numpy matplotlib seaborn jupyter
 jupyter notebook churn_analysis.ipynb
 
-## Author
+Author
 
-**Pradhipa S** — Data Analyst
+Pradhipa S
+Aspiring Data Analyst
+📧 pradhipasuresh16@gmail.com
+🔗 https://www.linkedin.com/in/pradhipa29

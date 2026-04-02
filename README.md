@@ -50,23 +50,6 @@ The dataset contains 7,032 customers, and the goal is to:
 - Encourage auto-pay over electronic check  
 - Provide offers for high-paying customers  
 
-## Project Structure
-
-customer-churn-analysis/
-│
-├── churn_analysis.ipynb
-├── churn_summary.csv
-│
-├── visuals/
-│ ├── churn_rate.png
-│ ├── churn_contract.png
-│ ├── churn_tenure.png
-│ ├── churn_charges.png
-│ └── churn_heatmap.png
-│
-└── README.md
-
-
 ## Tools & Libraries
 
 - Python  

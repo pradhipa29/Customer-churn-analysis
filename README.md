@@ -2,14 +2,6 @@
 
 ### Telecom Customer Retention Analysis | Python · Pandas · Matplotlib · Seaborn
 
-![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=flat&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blue)
-![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-2E86C1)
-![Status](https://img.shields.io/badge/Status-Completed-27AE7A?style=flat)
-
----
-
 ## Overview
 
 This project performs exploratory data analysis (EDA) on telecom customer data to understand churn behavior and identify key factors affecting customer retention.

@@ -11,7 +11,7 @@ The dataset contains 7,032 customers, and the goal is to:
 - Identify high-risk customers  
 - Understand revenue impact  
 - Generate business insights
-- 
+
 ## Business Objective
 
 **Identify why customers are leaving and how to reduce churn using data-driven insights.**

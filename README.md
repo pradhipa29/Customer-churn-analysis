@@ -10,15 +10,11 @@ The dataset contains 7,032 customers, and the goal is to:
 - Analyze churn patterns  
 - Identify high-risk customers  
 - Understand revenue impact  
-- Generate business insights  
-
----
-
+- Generate business insights
+- 
 ## Business Objective
 
 **Identify why customers are leaving and how to reduce churn using data-driven insights.**
-
----
 
 ## Analysis Performed
 
@@ -27,8 +23,6 @@ The dataset contains 7,032 customers, and the goal is to:
 - Exploratory Data Analysis (EDA)  
 - Feature analysis (contract, tenure, charges, payment method)  
 - Correlation analysis  
-
----
 
 ## Key Insights
 
@@ -41,8 +35,6 @@ The dataset contains 7,032 customers, and the goal is to:
 - New customers → higher churn  
 - Electronic check → highest churn  
 
----
-
 ## Visualizations
 
 - Churn distribution (Pie chart)  
@@ -51,16 +43,12 @@ The dataset contains 7,032 customers, and the goal is to:
 - Tenure distribution (Histogram)  
 - Correlation heatmap  
 
----
-
 ## Business Recommendations
 
 - Convert month-to-month customers to long-term plans  
 - Focus on early-stage customers (0–12 months)  
 - Encourage auto-pay over electronic check  
 - Provide offers for high-paying customers  
-
----
 
 ## Project Structure
 
@@ -79,8 +67,6 @@ customer-churn-analysis/
 └── README.md
 
 
----
-
 ## Tools & Libraries
 
 - Python  
@@ -90,14 +76,10 @@ customer-churn-analysis/
 - Seaborn  
 - Jupyter Notebook  
 
----
-
 ## Dataset
 
 - IBM Telco Customer Churn Dataset  
 - 7,032 Customers · 21 Features  
-
----
 
 ## How to Run
 
